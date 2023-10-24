@@ -1,0 +1,46 @@
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 9.7em;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  text-shadow: 0 0 1px rgba(50,251,226,.6),0 0 3px rgba(50,251,226,.5),0 0 .5rem rgba(50,251,226,.3),0 0 2rem rgba(50,251,226,.2);
+}
+
+.anim-typewriter {
+  animation: typewriter 3s steps(30) 1s 1 normal both, blinkTextCursor 700ms steps(30) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9.7em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255,255,255,.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255,255,255,.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
